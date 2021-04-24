@@ -1,0 +1,27 @@
+{
+  "name": "api-topicosavancados",
+  "version": "1.0.0",
+  "description": "Trabalho API Rodrigo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "trabalho"
+  ],
+  "author": "Luiz Fhelipy Rodrigues Teixeira & Lucas Saldanha Santos Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dockerfile": "^0.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.0.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
